@@ -6,6 +6,6 @@ lib
 share
 pip-selfcheck.json
 pyvenv.cfg
-db,sqlite3
+db.sqlite3
 /static
 .DS_Store
