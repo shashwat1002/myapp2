@@ -1,0 +1,25 @@
+{% load staticfiles %}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>My first app. </title>
+  <link href="{% static 'css/post_list.css'  %}" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <div class="entry">
+    <h1 style = "margin-top:0px;" > My Blog </h1>
+  </div>
+
+  <div class="container">
+        {% block content %}
+        {% endblock %}
+  </div>
+
+</body>
+</html>
